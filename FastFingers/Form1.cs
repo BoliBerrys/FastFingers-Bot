@@ -14,8 +14,6 @@ namespace FastFingers
 {
     public partial class Form1 : Form
     {
-        private bool typing = true;
-
         private int delay;
 
         public Form1()
@@ -35,7 +33,7 @@ namespace FastFingers
             text = text.Replace("<div id=\"row1\" style=\"top: 1px;\"><span wordnr=\"0\" class=\"highlight\">", "");
             text = text.Replace("</span>", "");
             text = text.Replace(" class=\"\">", "");
-            for (int i = 1; i < 10000; i++)
+            for (int i = 1; i < 10000; i++) //Hardcoding becase why not (?
             {
                 text = text.Replace("<span wordnr=\"" + i + "\"", "");
             }
@@ -63,8 +61,6 @@ namespace FastFingers
 
             for (int i = 0; i <= text.Length - 1; i++)
             {
-                if (!typing) return;
-
                 SendKeys.Send(text[i].ToString());
                 Thread.Sleep(delay);
             }
@@ -74,16 +70,6 @@ namespace FastFingers
         {
             Fix();
             Start();
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            typing = false;
-        }
-
-        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

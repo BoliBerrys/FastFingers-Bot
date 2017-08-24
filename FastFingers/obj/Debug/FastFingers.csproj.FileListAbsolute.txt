@@ -1,0 +1,9 @@
+D:\Projects\Visual Studio\FastFingers\FastFingers\bin\Debug\FastFingers.exe.config
+D:\Projects\Visual Studio\FastFingers\FastFingers\bin\Debug\FastFingers.exe
+D:\Projects\Visual Studio\FastFingers\FastFingers\bin\Debug\FastFingers.pdb
+D:\Projects\Visual Studio\FastFingers\FastFingers\obj\Debug\FastFingers.csprojResolveAssemblyReference.cache
+D:\Projects\Visual Studio\FastFingers\FastFingers\obj\Debug\FastFingers.Form1.resources
+D:\Projects\Visual Studio\FastFingers\FastFingers\obj\Debug\FastFingers.Properties.Resources.resources
+D:\Projects\Visual Studio\FastFingers\FastFingers\obj\Debug\FastFingers.csproj.GenerateResource.Cache
+D:\Projects\Visual Studio\FastFingers\FastFingers\obj\Debug\FastFingers.exe
+D:\Projects\Visual Studio\FastFingers\FastFingers\obj\Debug\FastFingers.pdb
